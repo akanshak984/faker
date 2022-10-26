@@ -23,4 +23,4 @@ def reformat_file(filename)
                 .sub(/^---\n/, '') # Remove header
 
   File.write(filename, output)
-end
+end 
